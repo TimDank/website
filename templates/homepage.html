@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = 'homepage.css') }}">
+    <script type = "text/javascript" src = "{{ url_for('static', filename = 'homepage.js') }}"></script>
+
+    <body>
+        <div id="nav-div">
+            <nav>
+                <div class="nav-item-div"><a href='https://www.apple.com' class='nav-item'>Apple</a></div>
+                <div class="nav-item-div"><a href='https://www.tesla.com' class='nav-item'>Tesla</a></div>
+            </nav>
+            <div id="dark-mode-div">
+                <a href="#"><svg id = "dark-mode-icon" class="bi bi-lightning-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M11.251.068a.5.5 0 01.227.58L9.677 6.5H13a.5.5 0 01.364.843l-8 8.5a.5.5 0 01-.842-.49L6.323 9.5H3a.5.5 0 01-.364-.843l8-8.5a.5.5 0 01.615-.09z" clip-rule="evenodd"/>
+                </svg></a>
+            </div>
+        </div>
+    </body>
+</html>
